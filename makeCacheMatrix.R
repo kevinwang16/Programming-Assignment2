@@ -1,3 +1,5 @@
+## creating a function CacheMatrix
+## this function creates a matrix object which can cche its inverse
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
   set <- function(y) {
